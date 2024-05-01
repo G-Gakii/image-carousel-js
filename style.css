@@ -1,0 +1,25 @@
+.container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 75%;
+    height: 400px;
+    margin: auto;
+}
+#rightArrow{
+    position: absolute;
+    bottom: 50%;
+    font-size: 100px;
+
+}
+#leftArrow{
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    font-size: 100px;
+    
+}
